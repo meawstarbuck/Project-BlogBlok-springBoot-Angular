@@ -1,0 +1,26 @@
+nx-header-brand img {
+    width: 120px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    margin: 0;
+}
+
+.headTop {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    opacity: 1;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.head {
+    background-color: #122135;
+}

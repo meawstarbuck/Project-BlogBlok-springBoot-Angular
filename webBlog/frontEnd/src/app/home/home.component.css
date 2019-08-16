@@ -1,0 +1,9 @@
+.main {
+    margin-top: 60px;
+    /* Used in this example to enable scrolling */
+}
+
+.supdate {
+    position: fixed;
+    bottom: 0;
+}

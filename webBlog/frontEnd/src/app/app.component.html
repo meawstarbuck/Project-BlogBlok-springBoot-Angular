@@ -1,0 +1,30 @@
+<div class="tile is-ancestor">
+  <div class="tile is-parent is-0.5">
+  </div>
+  <div class="tile is-parent is-11">
+      <article class="tile is-child">
+          <div>
+              <header class="headTop" nx-header>
+                  <nx-header-row class="head">
+                      <nx-header-brand>
+                          <a routerLink="./">
+                              <figure nxFigure>
+                                  <img src='../assets/Logo.png' role="none">
+                              </figure>
+                          </a>
+                      </nx-header-brand>
+
+                      <nx-header-actions>
+                          <button nxButton='cta small' (click)="createPage()" style="margin: auto;">CREATE</button>
+                          <input type="text" placeholder="Search..">
+                          <button type="submit">Search</button>
+                      </nx-header-actions>
+                  </nx-header-row>
+              </header>
+          </div>
+      </article>
+      <router-outlet></router-outlet>
+  </div>
+  <div class="tile is-parent is-0.5">
+  </div>
+</div>

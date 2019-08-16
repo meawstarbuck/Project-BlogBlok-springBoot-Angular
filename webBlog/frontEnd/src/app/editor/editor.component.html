@@ -1,0 +1,22 @@
+<ckeditor    [(ngModel)]="model.editorData" 
+            [editor]="Editor" ></ckeditor>
+
+
+
+<ckeditor   [(ngModel)]="model.editorData" 
+            [editor]="Editor" 
+            [config]="{ 
+                toolbar: [  'undo',
+                            'redo',
+                            'image upload',
+                            'bold', 
+                            'italic', 
+                            'link', 
+                            'bulletedList', 
+                            'numberedList', 
+                            'blockQuote'] }"
+                            
+            ></ckeditor>
+
+            <button nxButton='cta small' (click)="post()" style="margin: auto;">Submit</button>
+
